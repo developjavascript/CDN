@@ -5,7 +5,7 @@ var CDN = function(req, res){
   req.tools = tools.req,
   res.tools = tools.res;
 
-  res.end(req.tools.mime());
+  lib.serve(req, res);
 };
 
 module.exports = exports = CDN;
