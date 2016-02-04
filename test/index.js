@@ -1,7 +1,8 @@
-var http = require("http"),
-    handler = require("./../");
+import assert from 'assert';
+import cdn from '../lib';
 
-http.createServer(handler)
-.listen(80, function(){
-  console.log(" - Server online at http://localhost/");
+describe('cdn', function () {
+  it('should have unit test!', function () {
+    assert(false, 'we expected this package author to add actual unit tests.');
+  });
 });
