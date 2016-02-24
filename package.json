@@ -1,46 +1,30 @@
 {
-  "name": "cdn",
+  "name": "orbit",
+  "private": true,
   "version": "0.0.0",
-  "description": "DevJS CDN server",
-  "homepage": "https://cdn.devjs.org/",
-  "author": {
-    "name": "Jamen Marzonie",
-    "email": "jamenmarz@gmail.com",
-    "url": "http://jamenmarz.com/"
-  },
+  "description": "The DevJS CDN server.",
+  "homepage": "https://devjs.org/orbit",
+  "author": "Jamen Marzonie <jamenmarz@gmail.com> (http://jamenmarz.com)",
   "files": [
-    "dist"
+    "out"
   ],
   "main": "dist/index.js",
   "keywords": [
-    ""
+    "cdn"
   ],
   "devDependencies": {
-    "eslint-config-xo-space": "^0.7.0",
-    "babel-eslint": "^4.1.6",
-    "eslint-plugin-babel": "^3.0.0",
-    "gulp": "^3.9.0",
-    "gulp-eslint": "^1.0.0",
-    "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-istanbul": "^0.10.3",
-    "gulp-mocha": "^2.0.0",
-    "gulp-plumber": "^1.0.0",
-    "gulp-nsp": "^2.1.0",
-    "gulp-babel": "^5.1.0",
-    "del": "^2.0.2",
-    "babel-core": "^5.5.0",
-    "isparta": "^3.0.3"
-  },
-  "eslintConfig": {
-    "extends": "xo-space/esnext",
-    "env": {
-      "mocha": true
-    }
+    "ava": "^0.12.0",
+    "babel-core": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "del": "^2.2.0",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
   },
   "repository": "git@github.com:devjs/cdn.git",
   "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
-  },
-  "private": true
+    "prepublish": "gulp",
+    "test": "ava"
+  }
 }
