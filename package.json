@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "The DevJS CDN server.",
   "homepage": "https://devjs.org/orbit",
-  "author": "Jamen Marzonie <jamenmarz@gmail.com> (http://jamenmarz.com)",
+  "author": "DevJS",
   "files": [
     "out"
   ],
