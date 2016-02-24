@@ -8,7 +8,7 @@
   "files": [
     "out"
   ],
-  "main": "dist/index.js",
+  "main": "out",
   "keywords": [
     "cdn"
   ],
@@ -22,7 +22,7 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2"
   },
-  "repository": "git@github.com:devjs/cdn.git",
+  "repository": "git@github.com:devjs/orbit.git",
   "scripts": {
     "prepublish": "gulp",
     "test": "ava"
