@@ -1,7 +1,6 @@
 {
   "name": "orbit",
   "private": true,
-  "version": "0.0.0",
   "description": "The DevJS CDN server.",
   "homepage": "https://devjs.org/orbit",
   "author": "DevJS",
