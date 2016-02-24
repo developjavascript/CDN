@@ -8,7 +8,7 @@ Orbit is the DevJS CDN server.  It provides JavaScript, CSS, and fonts &em; cach
 
 ## Installation
 ```shell
-$ npm install --save
+$ npm install --save devjs/orbit
 ```
 
 ## Docs & Support
